@@ -14,7 +14,7 @@ Below is a list of projects organized by skill level. Click any project name to 
 ###  Beginner Projects
 | Project | Description |
 |--------|-------------|
-| [calculator](./calculator) | A simple calculator for basic arithmetic operations |
+| [simple-calculator](./simple-calculator) | A simple calculator for basic arithmetic operations |
 | [number-guessing-game](./number-guessing-game) | Guess the number between 1 and 100 |
 | [mad-libs-generator](./mad-libs-generator) | A fun mad libs story generator |
 | [todo-list-cli](./todo-list-cli) | A simple CLI-based to-do list |

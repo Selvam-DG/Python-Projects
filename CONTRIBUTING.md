@@ -68,14 +68,14 @@ git push origin feature/project-name
 
 ## Contribution Checklist
 Before submitting Your PR, make sure:
-- Your project is inside a new folder at the root level.
-- You have added a `README.md` inside your project folder with:
+- [ ]Your project is inside a new folder at the root level.
+- [ ] You have added a `README.md` inside your project folder with:
     - What the project does
     - How to run it
     - Any dependencies or setup instructions
-- Your code follows Python style and is clean and readable
-- You have updated the main `README.md` with your project link
-- Your code runs without errors
+- [ ] Your code follows Python style and is clean and readable
+- [ ] You have updated the main `README.md` with your project link
+- [ ] Your code runs without errors
 
 ## Project Folder Structure Example
 ```css

@@ -42,13 +42,37 @@ Below is a list of projects organized by skill level. Click any project name to 
 --- 
 
 ##  Getting Started
-Clone Locally
+#### Cloning an Individual Project Folder from This Monorepo
+
+Use the following steps to clone just one folder/project (like calculator, web-scraper, etc.)
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/python-projects.git
 cd python-projects
+
+# 1. Clone the repo without all files
+git clone --filter=blob:none --no-checkout https://github.com/yourusername/your-monorepo.git
+cd Python-Projects
+
+# 2. Enable sparse checkout
+git sparse-checkout init --cone
+
+# 3. Set the folder you want to clone
+# Replace 'web_scraper' with 'chatbot_rasa' or 'data_viz' as needed
+git sparse-checkout set web_scraper
+
+# 4. Checkout the folder
+git checkout
+
 cd calculator  # example
 python calculator.py
+
+
+# 5. create a virtual environment and Install dependencies
+python -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+
 ```
 
 ##  Want to Contribute?

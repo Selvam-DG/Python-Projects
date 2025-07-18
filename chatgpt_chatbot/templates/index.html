@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" ></script>
+</head>
+<body>
+    
+    <div class="d-flex flex-column justify-content-center align-items-center ">
+        {% if response %}
+            <p>{{response}}</p>
+        {% endif %}
+        <div><h1> Chat with ChatGpt</h1></div>
+        <div>
+            <form method="POST">
+                <textarea name="user_prompt" rows="4" cols="50" placeholder="Ask Anything!!"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
